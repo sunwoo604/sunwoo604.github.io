@@ -2,7 +2,7 @@
 Hi! 👋  My name is Sunwoo Kim who is currently majoring in Data Science, minoring in Computer Engineering at University of California, San Diego!
 Here are some projects that I have done so far!
 # Data Science Portfolio
-## Project 1: Read and Category Prediction
+## [Project 1: Read and Category Prediction](https://github.com/sunwoo604/ReadCategoryPrediction)
 ### Read Prediction
 - Used Logistic regression to determine whether user had read or not
 - Given input for the predction was user id and the book id
