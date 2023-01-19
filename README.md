@@ -11,3 +11,6 @@ Here are some projects that I have done so far!
 - Convert each review_text to tfidf vector after removing stopword to prevent confusion
 
 # Computer Science Porfolio
+## [Project 2: Web VR Environment with Flask Server](https://github.com/sunwoo604/Aframe-Flask_Development_Server)
+- Web VR environmet using HTML/A-frame and javascript for the functionality
+- Built development server using Flask
