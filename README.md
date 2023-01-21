@@ -6,6 +6,7 @@ Here are some projects that I have done so far!
 ### Read Prediction
 - Used Logistic regression to determine whether user had read or not
 - Given input for the predction was user id and the book id
+
 ### Category Prediction
 - Tried 2 different ways to predict(creating own featuer vectors and tfidf), and decided to use tfidf
 - Convert each review_text to tfidf vector after removing stopword to prevent confusion
