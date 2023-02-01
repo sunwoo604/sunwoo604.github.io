@@ -11,7 +11,11 @@ Here are some projects that I have done so far!
 - Tried 2 different ways to predict(creating own featuer vectors and tfidf), and decided to use tfidf
 - Convert each review_text to tfidf vector after removing stopword to prevent confusion
 
+## [Project 2: Court Decision Prediction](https://github.com/sunwoo604/CourtDecisionPrediction)
+- Predict if the court favors the complaint or not
+- Decision Tree Classifier was used
+
 # Computer Science Porfolio
-## [Project 2: Web VR Environment with Flask Server](https://github.com/sunwoo604/Aframe-Flask_Development_Server)
+## [Project 3: Web VR Environment with Flask Server](https://github.com/sunwoo604/Aframe-Flask_Development_Server)
 - Web VR environmet using HTML/A-frame and javascript for the functionality
 - Built development server using Flask
