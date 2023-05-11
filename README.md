@@ -15,7 +15,11 @@ Here are some projects that I have done so far!
 - Predict if the court favors the complaint or not
 - Decision Tree Classifier was used
 
+## [Project 3: Decision Tree Classifier](https://github.com/sunwoo604/ScratchDecisionTree)
+- Conducted Decision Tree from scratch with different uncertainty measurement
+- Trained with real life dataset
+
 # Computer Science Porfolio
-## [Project 3: Web VR Environment with Flask Server](https://github.com/sunwoo604/Aframe-Flask_Development_Server)
+## [Project 4: Web VR Environment with Flask Server](https://github.com/sunwoo604/Aframe-Flask_Development_Server)
 - Web VR environmet using HTML/A-frame and javascript for the functionality
 - Built development server using Flask
