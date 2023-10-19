@@ -9,6 +9,11 @@ Here are some projects that I have done so far!
 - Tokenized every string into every word(including punctuation) and assigned a unique index to each unique w,ord and converted each character into a numeric value
 - Implemented both single and multilayer RNN
 
+## [UCL Liveboost Visualization for FC Online 4](https://github.com/sunwoo604/FCOnline4_UCL_Liveboost_VIz)
+- Web scraped each player's live boost information
+- Bracket formatted visualization to show the progress of each team in UCL tournament and each team's logo and game is clickable which allow user to view game results and player's stat
+- Geospatial visualization to allow users to view each club's origin country.
+
 ## [Read and Category Prediction](https://github.com/sunwoo604/ReadCategoryPrediction)
 ### Read Prediction
 - Used Logistic regression to determine whether user had read or not
