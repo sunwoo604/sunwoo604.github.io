@@ -1,6 +1,15 @@
 # Sunwoo's Portfolio
-Hi! 👋  My name is Sunwoo Kim who is currently majoring in Data Science, minoring in Computer Engineering at University of California, San Diego!
+Hi! 👋  My name is Sunwoo Kim who is currently majoring in Data Science, minoring in Computer Engineering at the University of California, San Diego!
 Here are some projects that I have done so far!
+
+## [GWAS Database Dashboard](https://public.tableau.com/app/profile/sunwoo.kim1101/viz/GWASDatabaseDashboardPublic/Overview)
+### George Lab Database
+George Lab's GWAS experiment is developed through the Azure data warehouse. After the automated data engineering process, the data is uploaded to the combined database
+### Tableau Visualization
+This visualization allows the researcher to access different values of dependent variables and the distribution of them per database, cohort, and sex. 
+There is the internal version of visualization that is accessible by only permitted users and this visualization is directly connected to the Azure Database. For the researcher outside of the lab who is interested, the nonsynchronous public version is published through Tableau Public and the link is hyperlinked above.
+
+
 ## [Shakespeare Sonnet Autogenerate NLP](https://github.com/sunwoo604/ShakespeareNLP)
 ### Character Level RNN
 -  Divided every string into each character and assigned unique index to each unique character and converted each character into a numeric value.
