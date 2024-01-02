@@ -1,7 +1,6 @@
 # Sunwoo's Portfolio
 Hi! 👋  My name is Sunwoo Kim who is currently majoring in Data Science, minoring in Computer Engineering at the University of California, San Diego!
 Here are some projects that I have done so far!
-![Alt text](profile.jpg = 250x)
 
 ## [GWAS Database Dashboard](https://public.tableau.com/app/profile/sunwoo.kim1101/viz/GWASDatabaseDashboardPublic/Overview)
 ### George Lab Database
@@ -17,7 +16,7 @@ There is the internal version of visualization that is accessible by only permit
 -  Divided every string into each character and assigned unique index to each unique character and converted each character into a numeric value.
 
 ### Word Level RNN
-- Tokenized every string into every word(including punctuation) and assigned a unique index to each unique w,ord and converted each character into a numeric value
+- Tokenized every string into every word(including punctuation) and assigned a unique index to each unique word and converted each character into a numeric value
 - Implemented both single and multilayer RNN
 
 ## [UCL Liveboost Visualization for FC Online 4](https://github.com/sunwoo604/FCOnline4_UCL_Liveboost_VIz)
