@@ -1,7 +1,7 @@
 # Sunwoo's Portfolio
 Hi! 👋  My name is Sunwoo Kim who is currently majoring in Data Science, minoring in Computer Engineering at the University of California, San Diego!
 Here are some projects that I have done so far!
-![Alt text](profile.jpg?raw=true "Title")
+![Alt text](profile.jpg?=300x400)
 
 ## [GWAS Database Dashboard](https://public.tableau.com/app/profile/sunwoo.kim1101/viz/GWASDatabaseDashboardPublic/Overview)
 ### George Lab Database
