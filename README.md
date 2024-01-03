@@ -4,9 +4,9 @@ Here are some projects that I have done so far!
 
 ## [GWAS Database Dashboard](https://public.tableau.com/app/profile/sunwoo.kim1101/viz/GWASDatabaseDashboardPublic/Overview)
 ### George Lab Database
-George Lab's GWAS experiment is developed through the Azure data warehouse. After the automated data engineering process, the data is uploaded to the combined database
+- George Lab's GWAS experiment is developed through the Azure data warehouse. After the automated data engineering process, the data is uploaded to the combined database
 ### Tableau Visualization
-This visualization allows the researcher to access different values of dependent variables and the distribution of them per database, cohort, and sex. 
+- This visualization allows the researcher to access different values of dependent variables and the distribution of them per database, cohort, and sex. 
 Different types of visualization can be accessed by clicking on different buttons on the navigator bar and each visualization allows to filter and investigate specific rats per types of interest and separated by different visual marks such as color and shapes. 
 There is the internal version of visualization that is accessible by only permitted users and this visualization is directly connected to the Azure Database. For the researcher outside of the lab who is interested, the nonsynchronous public version is published through Tableau Public and the link is hyperlinked above.
 
