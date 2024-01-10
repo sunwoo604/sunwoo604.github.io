@@ -10,6 +10,12 @@ Here are some projects that I have done so far!
 Different types of visualization can be accessed by clicking on different buttons on the navigator bar and each visualization allows to filter and investigate specific rats per types of interest and separated by different visual marks such as color and shapes. 
 There is the internal version of visualization that is accessible by only permitted users and this visualization is directly connected to the Azure Database. For the researcher outside of the lab who is interested, the nonsynchronous public version is published through Tableau Public and the link is hyperlinked above.
 
+## [Pole Image Collection using Google Street View API and pole detection using DETR](https://github.com/sunwoo604/streetwatch)
+### Image Collections
+- Using Google street view API to collect images that can be used to train DETR later on.
+### Fine-tuning DETR
+- Utilizing DETR object detection model to detect overhead distribution structure(pole) in the collected images.
+
 
 ## [Shakespeare Sonnet Autogenerate NLP](https://github.com/sunwoo604/ShakespeareNLP)
 ### Character Level RNN
