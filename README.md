@@ -3,10 +3,13 @@ Hi! 👋  My name is Sunwoo Kim who is currently majoring in Data Science, minor
 Here are some projects that I have done so far!
 
 ## [Enhancing Utility Pole Monitoring with Computer Vision](https://jcheung4.github.io/DSC180B-Website/)
+
 ### Workflow
 - User gives two coordinates of interest(start and end of the street). The script will find the unique spots where 360 images were taken in Google Street View and collect images of the street. Then the model will detect each pole within the street through images and compare it with the database(the database in the code is a simple mock database to mock SDGE asset database). Then the script will demonstrate any discrepency between the database and the detection.
+  
 ### Data Collection
 - Data collection was done through Google Street View API request and each data is an image of a wooden or steel pole. A set of images is annotated and saved in COCO json format.
+
 ### Model Training
 - DETR2 was selected for object detection model and finetuned with the collected data.
 
