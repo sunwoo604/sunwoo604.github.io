@@ -11,6 +11,11 @@ Here are some projects that I have done so far!
 Different types of visualization can be accessed by clicking on different buttons on the navigator bar and each visualization allows to filter and investigate specific rats per types of interest and separated by different visual marks such as color and shapes. 
 There is the internal version of visualization that is accessible by only permitted users and this visualization is directly connected to the Azure Database. For the researcher outside of the lab who is interested, the nonsynchronous public version is published through Tableau Public and the link is hyperlinked above.
 
+## [2024 Tritonhack Machine Learning Starter Kit Project](https://tritonhacks.github.io/Tritonhack2024-ML-Starter-Kit/)
+### Tritonhack
+- This starter kit is for students who are participating in a Hackathon event called Tritonhack which is for K-12 students who want to explore further in computer science. This project is to guide students who are interested but new to data science and make them familiar with the setup and workflow of data science projects.
+- I was a project lead who managed version control and designed the whole project while managing a team of 4 through weekly meetings.
+
 ## [Pole Image Collection using Google Street View API and pole detection using DETR](https://github.com/sunwoo604/streetwatch)
 ### Image Collections
 - Using Google street view API to collect images that can be used to train DETR later on.
@@ -35,7 +40,7 @@ There is the internal version of visualization that is accessible by only permit
 ## [Read and Category Prediction](https://github.com/sunwoo604/ReadCategoryPrediction)
 ### Read Prediction
 - Used Logistic regression to determine whether user had read or not
-- Given input for the predction was user id and the book id
+- Given input for the prediction was user id and the book id
 
 ### Category Prediction
 - Tried 2 different ways to predict(creating own featuer vectors and tfidf), and decided to use tfidf
