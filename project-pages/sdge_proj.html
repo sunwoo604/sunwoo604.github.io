@@ -1,0 +1,113 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/icons/data-science.png" />
+     <title>Sunwoo Kim's portfolio</title>
+     <meta name="description" content="Sunwoo's personal porfolio">
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+     <link rel="stylesheet" href="../css/layout.css">
+     <link rel="stylesheet" href="../css/typography.css">
+     <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Sunwoo Kim</span>
+        <a class="button" href="mailto:sunwoo604@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <div id="main-content">
+
+      <div id="project-header">
+        <div class="main-title">Enhancing Utility Pole Monitoring with Computer Vision</div>
+        <div class="body-text">Senior project with SDG&E as an industry partner</div>
+        <image class="project-header-image" src="../assets/images/traversal_demo_loop.gif">
+          <a class="no-underline" target="_blank" href="https://jcheung4.github.io/DSC180B-Website/">
+            <span class="image-caption">Visit website</span>
+          </a>
+          <a class="no-underline" target="_blank" href="https://github.com/jcheung4/DSC180B">
+            <span class="image-caption">Visit Github repo</span>
+          </a>
+          <a class="no-underline" target="_blank" href="https://jcheung4.github.io/DSC180B-Website/documents/DSC_180B_Capstone_Report.pdf">
+            <span class="image-caption">View Report</span>
+          </a>
+      </div>
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">In order to minimize wildfire risk, understading the assets within the region and having correct data is crucial. However, sending technicians out to gather and update the database is time consuming and costly. In order to reduce the cost, we developed the workflow that can be utilized at SDG&E to automate the process of data quality control.</div>
+          <div class="body-text">I was in charge of data collection code, street traversal algorithm and gathering images of the street using Google Street View, creting GIF using collected image, overcounting prevention algorithm, and finetuning DETR model.</div>
+        </div>
+      </div>
+
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/pole_demo.png" class="gallery-image">
+              <span class="image-caption">This is the demo webiste where user can input 2 coordinates(start and end of the street) to run the workflow</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/street_img_collect_hori.png" class="gallery-image">
+              <span class="image-caption">This is how we collected the training data: per pole, used 3 different zooms and 5 different angles whcih resulted 15 images total per pole.</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/results_database.png" class="gallery-image">
+              <span class="image-caption">Sample output of the traversal results after detection vs SDG&E's current database</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.instagram.com/sunwookim.01/">
+        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/sunwoo-kim-70141723b/">
+        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:sunwoo604@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>

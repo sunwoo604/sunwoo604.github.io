@@ -1,0 +1,107 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/icons/data-science.png" />
+     <title>Sunwoo Kim's portfolio</title>
+     <meta name="description" content="Sunwoo's personal porfolio">
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+     <link rel="stylesheet" href="../css/layout.css">
+     <link rel="stylesheet" href="../css/typography.css">
+     <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Sunwoo Kim</span>
+        <a class="button" href="mailto:sunwoo604@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <div id="main-content">
+
+      <div id="project-header">
+        <div class="main-title">GWAS Database Dashboard</div>
+        <div class="body-text">Tableau Dashaboard to show data distribution and create visualization for the publication using Azure database for George Lab's GWAS research.</div>
+        <image class="project-header-image" src="../assets/images/dashboard.png">
+          <a class="no-underline" target="_blank" href="https://public.tableau.com/app/profile/sunwoo.kim1101/viz/GWASDatabaseDashboardPublic/Overview">
+            <span class="image-caption">Visit website</span>
+          </a>
+      </div>
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">This visualization allows the researcher to access different values of dependent variables and the distribution of them per database, cohort, and sex. Different types of visualization can be accessed by clicking on different buttons on the navigator bar and each visualization allows to filter and investigate specific rats per types of interest and separated by different visual marks such as color and shapes. There is the internal version of visualization that is accessible by only permitted users and this visualization is directly connected to the Azure Database. For the researcher outside of the lab who is interested, the nonsynchronous public version is published through Tableau Public.</div>
+          <div class="body-text">I was in charge of developing this entire dashboard and still improving and adding features.</div>
+        </div>
+      </div>
+
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/val_cor.png" class="gallery-image">
+              <span class="image-caption">Scatter plot to see if there is any correlcation between each sessions</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/press_dist.png" class="gallery-image">
+              <span class="image-caption">Distribution of lever press which indicatees rats' addiciton level</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/rat_group.png" class="gallery-image">
+              <span class="image-caption">Select each rat group to compare 2 differnet rat group and their lever press data</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.instagram.com/sunwookim.01/">
+        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/sunwoo-kim-70141723b/">
+        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:sunwoo604@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
